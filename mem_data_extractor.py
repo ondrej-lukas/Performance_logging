@@ -21,8 +21,9 @@ if __name__ == '__main__':
 			for item in p:
 				used.append(p[1] - (p[-1] + p[-2]))				
 		print "Mean: {}".format(np.mean(used))
-		print "Median: {}".format(np.median(used))
 		print "Min: {}".format(np.amin(used))
-		print "Max: {}".format(np.amax(used))
 		print "25 percentil: {}".format(np.percentile(used,25))
+		print "Median: {}".format(np.median(used))
 		print "75 percentil: {}".format(np.percentile(used,75))
+		print "Max: {}".format(np.amax(used))
+		
